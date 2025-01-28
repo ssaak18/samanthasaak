@@ -1,0 +1,28 @@
+import logo from './logo.svg';
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar'; 
+import About from './pages/About';
+import Experience from './pages/Experience';
+import Projects from './pages/Projects';
+import './App.css';
+
+const App = () => (
+  <Router>
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <main className="flex-grow">
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </main>
+      <footer className="bg-gray-800 text-white p-4 text-center">
+        &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+      </footer>
+    </div>
+  </Router>
+);
+
+export default App;
