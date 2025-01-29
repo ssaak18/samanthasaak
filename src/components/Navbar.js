@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'; // Import NavLink
 
 
 const Navbar = () => (
-  <nav className="text-white p-4 shadow-lg sticky top-0 z-50" style={{ backgroundColor: "rgb(164, 185, 141)" }}>
+  <nav className="text-white p-4 shadow-lg sticky top-0 z-50" style={{ backgroundColor: "rgb(145, 184, 105)" }}>
   <div className="container mx-auto flex justify-between">
     {/* Updated Portfolio text to be a link to About */}
     <NavLink to="/" className="text-xl font-bold hover:underline">

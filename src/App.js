@@ -18,7 +18,10 @@ const App = () => (
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </main>
-      <footer className="bg-gray-800 text-white p-4 text-center">
+      <footer className="text-white p-4 text-center"  style={{ 
+          backgroundColor: "#385c28", 
+        }} >
+
         &copy; {new Date().getFullYear()} Samantha Saak
       </footer>
     </div>
