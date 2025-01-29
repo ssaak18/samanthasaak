@@ -18,7 +18,7 @@ const About = () => (
     />
     <div style={{ height: '20px' }}></div> 
 
-    <h2 className="text-3xl font-bold mb-4 text-black">Samantha Saak</h2>
+    <h2 className="text-3xl font-bold mb-4 text-black">Hi, I'm Sammy</h2>
 
     <p className="font-bold text-gray-600">
           Computer Science @ Cornell Engineering
@@ -28,7 +28,7 @@ const About = () => (
 
    
           <p className="text-gray-900">
-      Hello! I am a self-driven undergraduate student at Cornell University pursuing a 
+      I am a self-driven undergraduate student at Cornell University pursuing a 
       Bachelor of Science in Computer Science with a minor in Robotics. I am passionate 
       about innovative human-centered technologies and innovative ways to assist daily life. 
       Recently, I conducted research into accessible interfaces for mobile manipulator robots 
