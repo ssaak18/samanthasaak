@@ -67,7 +67,7 @@ const ExperiencePage = () => {
     <div className="container mx-auto p-8">
       <div 
         style={{ 
-          backgroundColor: "#385c28", 
+          backgroundColor: "#2e4d1a", 
         }} 
         className="p-6 rounded-lg shadow-md"
       >

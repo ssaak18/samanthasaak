@@ -7,7 +7,7 @@ const Projects = () => (
     <section className="container mx-auto p-8">
       <div 
         style={{ 
-          backgroundColor: "#385c28", 
+          backgroundColor: "#2e4d1a", 
         }} 
         className="p-6 rounded-lg shadow-md"
       >
@@ -20,31 +20,28 @@ const Projects = () => (
           title="Voice Interface for Assistive Robots" 
           image="https://via.placeholder.com/300" 
           description="A brief description of the project." 
-          link="#" 
+          link="https://via.placeholder.com/300" 
         />
         <ProjectCard 
           title="Evolving Artificial Life Simulator" 
           image="https://via.placeholder.com/300" 
           description="A brief description of the project." 
-          link="#" 
         />
         <ProjectCard 
           title="FRC Software Development" 
           image="https://via.placeholder.com/300" 
           description="A brief description of the project." 
-          link="#" 
         />
         <ProjectCard 
           title="Portfolio Website" 
           image="https://via.placeholder.com/300" 
           description="A brief description of the project." 
-          link="#" 
+          link="https://via.placeholder.com/300" 
         />
         <ProjectCard 
           title="Photo Editor Game" 
           image="https://via.placeholder.com/300" 
           description="A brief description of the project." 
-          link="#" 
         />
       </div>
     </section>

@@ -19,7 +19,7 @@ const App = () => (
         </Routes>
       </main>
       <footer className="text-white p-4 text-center"  style={{ 
-          backgroundColor: "#385c28", 
+          backgroundColor: "#2e4d1a", 
         }} >
 
         &copy; {new Date().getFullYear()} Samantha Saak
