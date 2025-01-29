@@ -42,8 +42,14 @@ const Projects = () => (
         />
         <ProjectCard 
           title="FRC Software Development" 
-          image="https://via.placeholder.com/300" 
-          description="A brief description of the project." 
+          image="/images/projects/frc_cropped.gif" 
+          description="As the lead engineer for my FIRST Robotics Competition team, I coordinated efforts across the mechanical, electrical, and software subteams, 
+          designing the shooting mechanisms and overseeing the wiring of the robot. In my software work, I utilized an existing program to calculate time-optimal 
+          trajectories, considering kinodynamic and pose constraints, and developed a robust autonomous scheduler. 
+          This scheduler seamlessly coordinated the robot’s arm movements, 
+          intake system, and shooting mechanism, automatically generating the necessary movements for any path with zero-shot planning and adjusting on the fly 
+          to dynamic conditions. This enabled the robot to efficiently pick up a foam ring and shoot it at a target with precision." 
+          link="https://github.com/CCHS-FIRST-Robotics/2024RobotCode/blob/autonomous-testing/src/main/java/frc/robot/commands/AutoCommand.java"
         />
         <ProjectCard 
           title="Portfolio Website" 
