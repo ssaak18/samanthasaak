@@ -19,7 +19,7 @@ const App = () => (
         </Routes>
       </main>
       <footer className="bg-gray-800 text-white p-4 text-center">
-        &copy; {new Date().getFullYear()} Samantha Saak. All rights reserved.
+        &copy; {new Date().getFullYear()} Samantha Saak
       </footer>
     </div>
   </Router>

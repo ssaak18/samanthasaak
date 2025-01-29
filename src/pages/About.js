@@ -43,7 +43,15 @@ const About = () => (
 
 
 
-    
+    {/* <div 
+        style={{ 
+          backgroundColor: "#385c28", 
+        }} 
+        className="p-6 rounded-lg shadow-md"
+      >
+        <p className="text-sm text-center font-bold mb-4 m-1 text-white"> Computer Science @ Cornell Engineering
+        </p>
+      </div> */}
     
 
     
