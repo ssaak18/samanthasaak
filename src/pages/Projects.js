@@ -18,14 +18,27 @@ const Projects = () => (
         {/* Example project cards. Replace with dynamic data */}
         <ProjectCard 
           title="Voice Interface for Assistive Robots" 
-          image="https://via.placeholder.com/300" 
-          description="A brief description of the project." 
+          image="/images/projects/nerc.png" 
+          description="I developed a novel Amazon Alexa interface with a mobile-manipulator robot for 
+          increased accessibility in human-robot interactions. My project presents a case study for
+           using Virtual Assistants as accessible user interfaces for home assistance robots. 
+           It successfully demonstrates how Amazon's Alexa can be used as a voice interface 
+           for a robot to perform command grouping tasks based on user input. 
+           The project utilizes the Alexa Skills Kit to process Alexa interactions, 
+           ROS to communicate with the robot, and Flask to develop the web interface. 
+           My work was accepted for presentation at the New England Robotics Colloquium 
+           (NERC) for Fall 2024. " 
           link="https://via.placeholder.com/300" 
         />
         <ProjectCard 
           title="Evolving Artificial Life Simulator" 
-          image="https://via.placeholder.com/300" 
-          description="A brief description of the project." 
+          image="/images/projects/critters.png" 
+          description="I worked in a group of four to develop a simulator for evolving artificial life. 
+          I developed a backend parser to handle custom language programs and a graphical user 
+          interface that enables users to take control of individual specimens as they move, eat, 
+          reproduce, and evolve. I worked mainly on the backend data structures for parsing and 
+          interpreting the custom language program, the efficiency of the GUI and user interactions,
+           and the overall organization of my team. " 
         />
         <ProjectCard 
           title="FRC Software Development" 
@@ -34,14 +47,16 @@ const Projects = () => (
         />
         <ProjectCard 
           title="Portfolio Website" 
-          image="https://via.placeholder.com/300" 
-          description="A brief description of the project." 
+          image="/images/projects/website.png" 
+          description="Created as a way to display projects, this website is an on going project!" 
           link="https://via.placeholder.com/300" 
         />
         <ProjectCard 
-          title="Photo Editor Game" 
-          image="https://via.placeholder.com/300" 
-          description="A brief description of the project." 
+          title="Photo Editor & Auction Game" 
+          image="/images/projects/dog.png" 
+          description="I created a photo editor game in Java where users can edit their photographs 
+          with classic photo editing tools, such as tint or pixelate, and then sell their work 
+          in a auction-style game." 
         />
       </div>
     </section>
