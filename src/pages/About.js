@@ -34,7 +34,7 @@ const About = () => (
       Recently, I conducted research into accessible interfaces for mobile manipulator robots 
       at the University of Massachusetts Lowell to create a novel connection between virtual 
       assistance and robotics that promotes user autonomy. I bring hands-on experience in 
-      planning and developing larger software projects with a human interaction focus, 
+      planning and developing software projects with a human interaction focus, 
       along with design, debugging, and team communication skills. 
     </p>
     <div style={{ height: '10px' }}></div> 
