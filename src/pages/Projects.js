@@ -18,7 +18,7 @@ const Projects = () => (
         {/* Example project cards. Replace with dynamic data */}
         <ProjectCard 
           title="Voice Interface for Assistive Robots" 
-          image="/images/projects/nerc.png" 
+          image="/images/projects/nercGifMov.gif" 
           description="I developed a novel Amazon Alexa interface with a mobile-manipulator robot for 
           increased accessibility in human-robot interactions. My project presents a case study for
            using Virtual Assistants as accessible user interfaces for home assistance robots. 
@@ -28,7 +28,7 @@ const Projects = () => (
            ROS to communicate with the robot, and Flask to develop the web interface. 
            My work was accepted for presentation at the New England Robotics Colloquium 
            (NERC) for Fall 2024. " 
-          link="https://via.placeholder.com/300" 
+          link="https://github.com/ssaak18/alexa_and_hello_stretch-2024/tree/main" 
         />
         <ProjectCard 
           title="Evolving Artificial Life Simulator" 
@@ -43,19 +43,19 @@ const Projects = () => (
         <ProjectCard 
           title="FRC Software Development" 
           image="/images/projects/frc_cropped.gif" 
-          description="As the lead engineer for my FIRST Robotics Competition team, I coordinated efforts across the mechanical, electrical, and software subteams, 
-          designing the shooting mechanisms and overseeing the wiring of the robot. In my software work, I utilized an existing program to calculate time-optimal 
-          trajectories, considering kinodynamic and pose constraints, and developed a robust autonomous scheduler. 
-          This scheduler seamlessly coordinated the robot’s arm movements, 
-          intake system, and shooting mechanism, automatically generating the necessary movements for any path with zero-shot planning and adjusting on the fly 
-          to dynamic conditions. This enabled the robot to efficiently pick up a foam ring and shoot it at a target with precision." 
+          description="As the lead engineer for my FIRST Robotics Competition team, I coordinated efforts across the mechanical, 
+          electrical, and software subteams, contributing to the full robot development. Hardware wise, I designed a shooting 
+          mechanism and oversaw electrical wiring of the robot. In my software work, I utilized an existing program to calculate 
+          time-optimal trajectories, considering robot movement and pose constraints, and developed a robust autonomous scheduler. 
+          The scheduler coordinated the robot’s arm movements, intake system, and shooting mechanism, automatically generating the 
+          necessary movements for any path with the ability to adjust to dynamic conditions. This enabled our robot to efficiently 
+          move and pick up multiple foam rings and shoot them at a target with precision." 
           link="https://github.com/CCHS-FIRST-Robotics/2024RobotCode/blob/autonomous-testing/src/main/java/frc/robot/commands/AutoCommand.java"
         />
         <ProjectCard 
           title="Portfolio Website" 
           image="/images/projects/website.png" 
-          description="Created as a way to display projects, this website is an on going project!" 
-          link="https://via.placeholder.com/300" 
+          description="Created as a way to display my projects, this website is an on going project!" 
         />
         <ProjectCard 
           title="Photo Editor & Auction Game" 
