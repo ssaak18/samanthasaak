@@ -14,7 +14,7 @@ const Projects = () => (
         <h2 className="text-3xl text-center font-bold mb-4 m-1 text-white">  Projects</h2>
       </div>
 
-      <div className="flex flex-row min-h-screen justify-center items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="flex flex-row justify-center items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
         <ProjectCard 
           title="Voice Interface for Assistive Robots" 
