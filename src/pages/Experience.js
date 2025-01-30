@@ -75,7 +75,7 @@ const ExperiencePage = () => {
       </div>
       
       {/* Loop through experiences and render ExperienceCard */}
-      <div className="space-y-8">
+      <div className="space-y-2">
         {experiences.map((experience, index) => (
           <ExperienceCard
             key={index}

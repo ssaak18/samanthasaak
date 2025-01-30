@@ -15,7 +15,7 @@ const Projects = () => (
       </div>
 
       <div className="flex flex-row min-h-screen justify-center items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {/* Example project cards. Replace with dynamic data */}
+
         <ProjectCard 
           title="Voice Interface for Assistive Robots" 
           image="/images/projects/nercGifMov.gif" 
