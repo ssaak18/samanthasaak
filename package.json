@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://ssaak18.github.io/samanthasaak",
+  "homepage": "https://ssaak18.github.io/",
   "private": true,
   "dependencies": {
     "@tailwindcss/cli": "^4.0.0",

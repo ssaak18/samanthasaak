@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar'; 
 import About from './pages/About';
 import Experience from './pages/Experience';
@@ -8,7 +8,7 @@ import Projects from './pages/Projects';
 import './App.css';
 
 const App = () => (
-  <Router>
+  <HashRouter>
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="flex-grow">
@@ -25,7 +25,7 @@ const App = () => (
         &copy; {new Date().getFullYear()} Samantha Saak
       </footer>
     </div>
-  </Router>
+  </HashRouter>
 );
 
 export default App;
