@@ -6,16 +6,14 @@ import ProjectCard from '../components/ProjectCard';
 const Projects = () => (
     <section className="container mx-auto p-8">
       <div 
-        style={{ 
-          backgroundColor: "#2e4d1a", 
-        }} 
-        className="p-6 rounded-lg shadow-md"
+        style={{ backgroundColor: "#2e4d1a" }} 
+        className="p-4 h-20 rounded-lg shadow-md flex items-center justify-center"
       >
-        <h2 className="text-3xl text-center font-bold mb-4 m-1 text-white">  Projects</h2>
+        <h2 className="text-3xl text-center font-bold text-white">Projects</h2>
       </div>
 
-      <div className="flex flex-row min-h-screen justify-center items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {/* Example project cards. Replace with dynamic data */}
+      <div className="flex flex-row justify-center items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
         <ProjectCard 
           title="Voice Interface for Assistive Robots" 
           image="/images/projects/nercGifMov.gif" 

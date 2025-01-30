@@ -4,9 +4,9 @@ import { Card, CardContent } from "./ui/card";
 import Button from "./ui/button";
 
 const ExperienceCard = ({ jobTitle, orgName, date, details }) => (
-  <div className="flex flex-col space-y-4 p-6 rounded-lg shadow-md bg-white">
+  <div className="flex flex-col p-6 rounded-lg">
     {/* Optional spacer */}
-    <div style={{ height: '25px' }}></div>
+    {/* <div style={{ height: '25px' }}></div> */}
     
     <div className="flex justify-between items-baseline">
       {/* Job Title */}

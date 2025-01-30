@@ -66,16 +66,14 @@ const ExperiencePage = () => {
   return (
     <div className="container mx-auto p-8">
       <div 
-        style={{ 
-          backgroundColor: "#2e4d1a", 
-        }} 
-        className="p-6 rounded-lg shadow-md"
+        style={{ backgroundColor: "#2e4d1a" }} 
+        className="p-4 h-20 rounded-lg shadow-md flex items-center justify-center"
       >
-        <h2 className="text-3xl text-center font-bold mb-4 m-1 text-white">  Experience</h2>
+        <h2 className="text-3xl text-center font-bold text-white">Experience</h2>
       </div>
       
       {/* Loop through experiences and render ExperienceCard */}
-      <div className="space-y-8">
+      <div className="space-y-2">
         {experiences.map((experience, index) => (
           <ExperienceCard
             key={index}
