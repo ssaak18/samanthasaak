@@ -14,7 +14,7 @@ const Projects = () => (
     {/* Use grid with center alignment */}
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center mt-6">
       <ProjectCard 
-        title="Voice Interface for Assistive Robots" 
+        title="Voice Interface for Assistive Robots (Accepted NERC 2024)" 
         image="/images/projects/nercGifMov.gif" 
         description="I developed a novel Amazon Alexa interface with a mobile-manipulator robot for increased accessibility in human-robot interactions. My project presents a case study for using Virtual Assistants as accessible user interfaces for home assistance robots. It successfully demonstrates how Amazon's Alexa can be used as a voice interface for a robot to perform command grouping tasks based on user input. The project utilizes the Alexa Skills Kit to process Alexa interactions, ROS to communicate with the robot, and Flask to develop the web interface. My work was accepted for presentation at the New England Robotics Colloquium (NERC) for Fall 2024." 
         link="https://github.com/ssaak18/alexa_and_hello_stretch-2024/tree/main" 
